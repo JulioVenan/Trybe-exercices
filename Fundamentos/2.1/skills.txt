@@ -1,5 +1,7 @@
 unix
 bash
-git
 HTML
 CSS
+git
+Javascript
+ReactJs
