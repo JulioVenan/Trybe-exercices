@@ -1,0 +1,72 @@
+ol{
+    background-color: yellow;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+     
+}
+a:hover{
+    font-weight: 1000;
+}
+
+.par{
+    color: green;
+}
+
+.impar{
+    text-transform: capitalize;
+}
+
+h1,h3{
+    color: red;
+    
+}
+h1.ita{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li em {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+span{
+    color: blue;
+}   
+#java{
+    background-color: rosybrown;
+}
+
+#trybe:hover{
+    color: green;
+
+}
+
+#stk:hover{
+    color: orange;
+
+}
+
+#w3:hover{
+    color: green;
+
+}
+
+#dev:hover{
+    color: black;
+    
+
+}
+
+
+#docs:hover{
+    color: yellow;
+
+}
+ 
