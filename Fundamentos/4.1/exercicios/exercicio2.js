@@ -17,4 +17,4 @@ const nota = function (nota) {
 
  }
 
- console.log(nota(58))
+ console.log(nota())
