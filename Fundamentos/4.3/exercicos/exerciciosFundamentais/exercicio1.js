@@ -2,30 +2,32 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let result = 0
 
+let maior = 0
+
 
 //exercicio 1
 
-// for (items of numbers){
-//     console.log(items)
-// }
+ for (items of numbers){
+     console.log(items)
+}
 //exercicio2
 
-// for(index = 0; index <numbers.length; index += 1){
-// result += numbers[index]
-// }
-// console.log(result)
+for(index = 0; index <numbers.length; index += 1){
+result += numbers[index]
+ }
+ console.log(result)
 
 
 //exercicio3
-// for(index = 0; index <numbers.length; index += 1){
-//     result += numbers[index] ;
-//     media = result/[index + 1]; 
+for(index = 0; index <numbers.length; index += 1){
+    result += numbers[index] ;
+    media = result/[index + 1]; 
 
     
     
-//     }
-//     console.log(result)
-//     console.log(media)
+    }
+    console.log(result)
+    console.log(media)
 
 //exercico4
 
@@ -42,5 +44,15 @@ for(index = 0; index <numbers.length; index += 1){
     
     }
     
-console.log(media)
+ console.log(media)
 
+//exercicio 5
+
+for(index = 0; index <numbers.length; index += 1){
+    if ( numbers[index] > maior ) {
+        maior = numbers[index];
+     }
+
+}
+     
+console.log(maior)
