@@ -1,0 +1,5 @@
+document.getElementById("page-title").innerText = "O senhor dos anéis"
+document.getElementById("second-paragraph").innerText = "Aragorn é o rei de gondor"
+document.getElementById("subtitle").innerText = "O retorno do rei"
+document.getElementById("paragraph").style.color = "blue" 
+document.getElementById("paragraph").innerText = "Samwise"
