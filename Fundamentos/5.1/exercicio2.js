@@ -1,0 +1,2 @@
+document.getElementsByClassName("paragrafo")[0].style.color = 'blue'//utilizar o [] para acessar o elemento do array
+document.getElementsByTagName("h4")[0].style.color = 'red'//utilizar o [] para acessar o elemento do array
