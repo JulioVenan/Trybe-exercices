@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+header{
+    width: 33%;
+    background-color: rgb(236, 227, 227);
+    margin-left: 33%;
+    height: 15%;
+    border: 1px solid rgb(236, 227, 227);
+    border-radius: 1%;
+}
+*{
+    font-family: 'Indie Flower', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Koulen', cursive;
+font-family: 'Stylish', sans-serif;
+}
+
+#box{
+    border: 1px solid rgb(133, 128, 128);
+    border-radius: 1%;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 5%;
+    background-color: rgb(236, 227, 227);
+}
+#first-input{
+    display: flex;
+    flex-direction: column;
+}
+#label-nome{
+    padding: 10px;
+}
+#label-email{
+    padding: 10px;
+}
+
+.radio{
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
+textarea{
+    padding: 10px;
+    margin-left: 10px;
+}
+#fourth-input{
+    padding: 10px;
+}
+#fifth-input{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    margin-top: 2%;
+    border-radius: 20px;
+    width: 70px;
+    background: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(133, 128, 128);
+
+}
+#fifth-input{
+    display: flex;
+    flex-direction: column;
+}

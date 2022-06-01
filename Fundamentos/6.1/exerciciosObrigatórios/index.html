@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=Koulen&family=Stylish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Envio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Header da Pagina!</h1>
+    </header>
+    <section id="box">
+        <form action="">
+            <div id="first-input">
+                <label for="" id="label-nome">Nome : <input type="text" name="nome" id="nameid" min="10" max="40" placeholder="Digite seu nome completo"></label>
+                <label for="" id="label-email">Email : <input type="email" name="email" id="emailid" min="10" max="50" placeholder="Digite seu E-mail"></label>
+            </div>
+
+            <div id="second-input">
+                <p>Destino Preferido</p>
+                <label for="optionid1" class="radio">Cidade : <input type="radio" name="option" id="optionid1"></label>
+                <label for="optionid2" class="radio">Campo  : <input type="radio" name="option" id="optionid2"></label>
+                <label for="optionid3" class="radio">Praias: <input type="radio" name="option" id="optionid3"></label>
+                <label for="optionid4" class="radio">Montanhas: <input type="radio" name="option" id="optionid4"></label>
+            </div>
+
+            <div id="third-input">
+            <p>Espaço para digitar a resposta:</p>
+            <textarea name="resposta" id="textarea - 1" cols="30" rows="10" maxlength="500"></textarea>
+        </div>
+        <div id="fourth-input">
+            <label for="">Data: <input type="date"></label>
+        </div>
+        <div id="fifth-input">
+            <label for="checkbox1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?<input type="checkbox" id="checkbox1"></label>
+            <label for="checkbox2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros<input type="checkbox" id="checkbox2"></label>
+        </div>
+        </form>
+
+    </section>
+    <div id="buttons">
+    <button type="submit" id="button-submit">Enviar</button>
+    <button>Apagar</button>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
