@@ -12,4 +12,4 @@ const checkWin = (value) => {
   }
   
 }
-console.log(checkWin(4))
+console.log(checkWin(4));
