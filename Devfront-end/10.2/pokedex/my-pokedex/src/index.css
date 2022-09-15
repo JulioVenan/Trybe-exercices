@@ -15,7 +15,7 @@ body {
   flex: 1 1 0;
   min-width: 25%;
   margin: 10px 10px;
-  border: 1px gray solid;
+  border: 1px rgb(107, 120, 240) solid;
   border-radius: 10px;
 }
 
